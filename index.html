@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação</title>
+    
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <img src="https://via.placeholder.com/32" alt="Logo" class="logo-img">
+                    <h1>Documentação</h1>
+                </div>
+            </div>
+            
+            <nav>
+                <ul class="sidebar-menu">
+                    <li class="menu-category">Introdução</li>
+                    <li><a href="#about" class="active"><i class="fas fa-info-circle"></i> Sobre</a></li>
+                    <li><a href="#getting-started"><i class="fas fa-rocket"></i> Começando</a></li>
+                    
+                    <li class="menu-category">Guia</li>
+                    <li><a href="#installation"><i class="fas fa-download"></i> Instalação</a></li>
+                    <li><a href="#configuration"><i class="fas fa-cog"></i> Configuração</a></li>
+                    <li><a href="#features"><i class="fas fa-star"></i> Recursos</a></li>
+                    
+                    <li class="menu-category">Suporte</li>
+                    <li><a href="#faq"><i class="fas fa-question-circle"></i> FAQ</a></li>
+                    <li><a href="#support"><i class="fas fa-headset"></i> Suporte</a></li>
+                </ul>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <a href="#support" class="support-link">
+                    <i class="fas fa-life-ring"></i>
+                    <span>Precisa de ajuda?</span>
+                </a>
+            </div>
+        </aside>
+        
+        <!-- Conteúdo principal -->
+        <main class="content">
+            <!-- Seção Sobre -->
+            <section id="about" class="section active">
+                <div class="section-header">
+                    <h1>Sobre</h1>
+                    <span class="badge">Documentação</span>
+                </div>
+                
+                <div class="card">
+                    <h2>Bem-vindo à Documentação</h2>
+                    <p>Esta é uma documentação personalizável que você pode usar como base para seu projeto. Sinta-se à vontade para modificar o conteúdo e o estilo de acordo com suas necessidades.</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Personalizável</h3>
+                        <p>Modifique cores, fontes e estilos facilmente através das variáveis CSS.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Responsivo</h3>
+                        <p>Design adaptável para todos os tamanhos de tela e dispositivos.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Fácil de Usar</h3>
+                        <p>Estrutura simples e intuitiva para adicionar seu próprio conteúdo.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Seção Começando -->
+            <section id="getting-started" class="section">
+                <div class="section-header">
+                    <h1>Começando</h1>
+                    <span class="badge">Guia</span>
+                </div>
+                
+                <div class="card">
+                    <h2>Primeiros Passos</h2>
+                    <p>Siga estes passos simples para começar a usar esta documentação:</p>
+                    
+                    <div class="steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h3>Clone o Repositório</h3>
+                                <p>Faça o download ou clone este repositório para seu computador.</p>
+                                <pre><code>git clone https://github.com/seu-usuario/documentacao.git</code></pre>
+                            </div>
+                        </div>
+                        
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h3>Personalize o Conteúdo</h3>
+                                <p>Edite o arquivo <code>index.html</code> para adicionar seu próprio conteúdo.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h3>Personalize o Estilo</h3>
+                                <p>Modifique as variáveis CSS em <code>style.css</code> para personalizar as cores e estilos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Seção Instalação -->
+            <section id="installation" class="section">
+                <div class="section-header">
+                    <h1>Instalação</h1>
+                    <span class="badge">Guia</span>
+                </div>
+                
+                <div class="card">
+                    <h2>Requisitos do Sistema</h2>
+                    <div class="requirements-grid">
+                        <div class="requirement-item">
+                            <i class="fas fa-server"></i>
+                            <h4>Sistema Operacional</h4>
+                            <p>Windows 10+ ou Linux</p>
+                        </div>
+                        
+                        <div class="requirement-item">
+                            <i class="fas fa-memory"></i>
+                            <h4>Memória RAM</h4>
+                            <p>Mínimo 4GB</p>
+                        </div>
+                        
+                        <div class="requirement-item">
+                            <i class="fas fa-microchip"></i>
+                            <h4>Processador</h4>
+                            <p>2+ Cores</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h2>Instruções de Instalação</h2>
+                    <p>Siga estas instruções para instalar e configurar o sistema:</p>
+                    
+                    <pre><code># Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
+
+# Construa para produção
+npm run build</code></pre>
+                </div>
+            </section>
+            
+            <!-- Seção Configuração -->
+            <section id="configuration" class="section">
+                <div class="section-header">
+                    <h1>Configuração</h1>
+                    <span class="badge">Guia</span>
+                </div>
+                
+                <div class="card">
+                    <h2>Configurações Básicas</h2>
+                    <div class="config-grid">
+                        <div class="config-item">
+                            <h3>Configuração do Banco de Dados</h3>
+                            <pre><code>DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=mydatabase
+DB_USER=user
+DB_PASS=password</code></pre>
+                        </div>
+                        
+                        <div class="config-item">
+                            <h3>Configuração do Servidor</h3>
+                            <pre><code>SERVER_PORT=3000
+SERVER_HOST=localhost
+DEBUG_MODE=false</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Seção Recursos -->
+            <section id="features" class="section">
+                <div class="section-header">
+                    <h1>Recursos</h1>
+                    <span class="badge">Guia</span>
+                </div>
+                
+                <div class="card">
+                    <h2>Principais Recursos</h2>
+                    <div class="components-grid">
+                        <div class="component-card">
+                            <h3>Interface Responsiva</h3>
+                            <p>Design adaptável para todos os dispositivos e tamanhos de tela.</p>
+                        </div>
+                        
+                        <div class="component-card">
+                            <h3>Tema Escuro</h3>
+                            <p>Interface moderna com tema escuro para melhor legibilidade.</p>
+                        </div>
+                        
+                        <div class="component-card">
+                            <h3>Navegação Intuitiva</h3>
+                            <p>Menu lateral com categorias e subcategorias para fácil navegação.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Seção FAQ -->
+            <section id="faq" class="section">
+                <div class="section-header">
+                    <h1>FAQ</h1>
+                    <span class="badge">Suporte</span>
+                </div>
+                
+                <div class="card">
+                    <h2>Perguntas Frequentes</h2>
+                    <div class="faq-grid">
+                        <div class="faq-item">
+                            <h3>Como personalizar as cores?</h3>
+                            <p>Você pode modificar as variáveis CSS no arquivo <code>css/style.css</code> para alterar as cores do tema.</p>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <h3>Como adicionar novas seções?</h3>
+                            <p>Adicione novas seções no arquivo <code>index.html</code> e crie os links correspondentes no menu lateral.</p>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <h3>Como modificar o menu lateral?</h3>
+                            <p>Edite a estrutura do menu no arquivo <code>index.html</code> dentro da tag <code>nav</code>.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Seção Suporte -->
+            <section id="support" class="section">
+                <div class="section-header">
+                    <h1>Suporte</h1>
+                    <span class="badge">Suporte</span>
+                </div>
+                
+                <div class="card">
+                    <h2>Precisa de Ajuda?</h2>
+                    <p>Se você precisar de ajuda ou tiver alguma dúvida, entre em contato conosco através dos seguintes canais:</p>
+                    
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <i class="fab fa-github"></i>
+                            <h3>GitHub</h3>
+                            <p>Abra uma issue no nosso repositório</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <i class="fab fa-discord"></i>
+                            <h3>Discord</h3>
+                            <p>Entre em nosso servidor para suporte</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>Envie um email para suporte@exemplo.com</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <!-- Botão do menu mobile -->
+    <button class="mobile-menu-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+    
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html> 
